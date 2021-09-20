@@ -113,7 +113,7 @@
 
         .services-info {
             padding: 20px;
-            text-align: center;
+            text-align: justify;
         }
 
         .carousel-item_title {
@@ -145,17 +145,21 @@
         }
 
         .seccion-pie {
-            background-color: #25294f;
-            height: 200px;
+            background-color: #9ca49acf;
+            height: 400px;
             display: flex;
-            color: white;
+            color: rgba(0, 0, 0, 0.948);
             justify-content: space-evenly;
+            font-style: arial;
         }
 
         .services-info__imagen {
-            border-radius: 50%;
+            border-radius: 15%;
             margin-right: auto;
             margin-left: auto;
+            width: 300px;
+            height: 200px;
+
         }
 
         .team-info {
@@ -166,6 +170,7 @@
         .team-info_title {
             color: darkgoldenrod;
             font: bolder;
+            text-align: justify;
         }
 
         .team-info__imagen {
@@ -182,28 +187,30 @@
             <div class="header-container">
 
                 <div class="site-title">
-                    <h1 class="site-title">Una Web</h1>
+                    <font color="Teal" face="Comic Sans MS,arial">
+                        <h1 align="center"><i>Control de vacunación para animales domésticos</i></h1>
+                    </font>
                 </div>
-
                 <!-- Inicio menú navegación -->
                 <!--<nav>-->
                 <nav class="site-nav">
-                    <a href="#">Inicio</a>
-                    <a href="#services">Servicios</a>
-                    <a href="#news">Noticias</a>
-                    <a href="#team">Nuestro equipo</a>
-                </nav>
-                <!--</nav>-->
-                <!-- Fin menú navegación -->
+                    <a href="#" class="btn btn-success">Inicio</a>
+                    <a href="#services" class="btn btn-success">Servicios</a>
+                    <a href="#news" class="btn btn-success">Noticias</a>
+                    <a href="#team" class="btn btn-success">Nuestro equipo</a>
+                    <!--</nav>-->
+                    <!-- Fin menú navegación -->
 
-                <div class="logo-container">
-                    <img class="logo-container__site-logo" src="./logomision.png" alt="Logo MisionTic 2022">
-                </div>
+                    <div class="logo-container">
+
+                        <img class="logo-container__site-logo" src="./perro.png" alt="Logo Perro">
+                    </div>
             </div>
 
             <div class="banner">
-                <img src="./banner.jpg" alt="A banner image">
+                <img src="https://cdn.pixabay.com/photo/2017/04/11/15/55/animals-2222007_960_720.jpg" alt="imagen_baner">
             </div>
+
         </div>
     </header>
     <!-- fin encabezado del sitio -->
@@ -215,35 +222,36 @@
             <!-- inicio sección de servicios -->
             <section id="services" class="services-section">
                 <h2 class="negrilla-title">Servicios</h2>
+                <br>
                 <div id="servicios" class="services-section">
                     <article class="services-info">
-                        <img class="services-info__imagen" src="http://placeimg.com/200/200/nature" alt="">
-                        <h2 class="services-info__title">Servicio 1</h2>
+                        <img class="services-info__imagen"
+                            src="https://cdn.pixabay.com/photo/2021/01/10/07/41/syringe-5904302__340.jpg" alt="">
+                        <h2 class="services-info__title">REGISTRO</h2>
                         <p class="services-info__text">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora quas voluptate magni
-                            repellat eligendi! Inventore voluptas
-                            voluptates quia voluptatum expedita, ducimus delectus dolore eaque maiores iusto modi eum
-                            aut corporis?
+                            Servicio de registro de procesamiento vacunación, esterilización, con sistema para gestión
+                            de informes y avance de programas de salud pública con animales domésticos.
                         </p>
                     </article>
                     <article class="services-info">
-                        <img class="services-info__imagen" src="http://placeimg.com/200/200/tech" alt="">
-                        <h2 class="services-info__title">Servicio 2</h2>
+                        <img class="services-info__imagen"
+                            src="https://media.istockphoto.com/photos/coronavirus-picture-id1305856876?b=1&k=20&m=1305856876&s=170x170&h=GzXr7BF7Nork7Dl52Cwd5gcmTFUl2IUrf_ULACBShj8="
+                            alt="">
+                        <h2 class="services-info__title">ESTADISTICAS</h2>
                         <p class="services-info__text">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora quas voluptate magni
-                            repellat eligendi! Inventore voluptas
-                            voluptates quia voluptatum expedita, ducimus delectus dolore eaque maiores iusto modi eum
-                            aut corporis?
+                            Sistema de registro estadístico de programas de salud pública para consulta y actualización
+                            de nuevos programas con animales domésticos.
                         </p>
                     </article>
                     <article class="services-info">
-                        <img class="services-info__imagen" src="http://placeimg.com/200/200/people" alt="">
-                        <h2 class="services-info__title">Servicio 3</h2>
+                        <img class="services-info__imagen"
+                            src="https://media.istockphoto.com/photos/italian-identity-card-picture-id508488200?b=1&k=6&m=508488200&s=170667a&w=0&h=TyuIddnMXKmeXHL9nfDlO9tNBgFToRhtK8fYigdr12k="
+                            alt="">
+                        <h2 class="services-info__title">DOCUMENTOS</h2>
                         <p class="services-info__text">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora quas voluptate magni
-                            repellat eligendi! Inventore voluptas
-                            voluptates quia voluptatum expedita, ducimus delectus dolore eaque maiores iusto modi eum
-                            aut corporis?
+                            USUARIO: servicio de descargas de comprobantes de procedimiento e inscripción para la
+                            participación de los diferentes programas por parte de la secretaria de salud con animales
+                            domésticos.
                         </p>
                     </article>
                 </div>
@@ -340,9 +348,14 @@
                         <div class="col-md-8 ">
                             <div class="card-body ">
                                 <h5 class="card-title" class="team-info_title">Nelson</h5>
-                                <p class="card-text">Mi nombre es NELSON HERRER CASTRO, soy de la ciudad de Cartagena, actualmente vivo en Mompós-Bolívar. 
-                                    Tengo estudios en ingeniería de sistemas, no culminados (VIII semestre), tengo cursos en diseño de páginas web con Macromedia Dreamweaver, ofimática, instalaciones eléctricas y en Salud y Seguridad en el Trabajo. 
-                                    Trabajo como colaborador en el departamento de sistemas en una institución educativa del estado. A de más tengo mi propio negocio de forma independiente en Asesorías en sistemas de información e instalaciones de Circuito Cerrado de TV..</p>
+                                <p class="card-text">Mi nombre es NELSON HERRER CASTRO, soy de la ciudad de Cartagena,
+                                    actualmente vivo en Mompós-Bolívar.
+                                    Tengo estudios en ingeniería de sistemas, no culminados (VIII semestre), tengo
+                                    cursos en diseño de páginas web con Macromedia Dreamweaver, ofimática, instalaciones
+                                    eléctricas y en Salud y Seguridad en el Trabajo.
+                                    Trabajo como colaborador en el departamento de sistemas en una institución educativa
+                                    del estado. A de más tengo mi propio negocio de forma independiente en Asesorías en
+                                    sistemas de información e instalaciones de Circuito Cerrado de TV..</p>
                                 <p class="card-text"><small class="text-muted">https://github.com/Nelheca</small></p>
                             </div>
                         </div>
@@ -358,7 +371,11 @@
                         <div class="col-md-8 ">
                             <div class="card-body ">
                                 <h5 class="card-title" class="team-info_title">Mauricio</h5>
-                                <p class="card-text"></p>Hola soy Mauricio Arango, soy de un pequeño y hermoso pueblo del norte del Valle del Cauca, tengo 20 años, estudiante de Ing.Mecatronica en la Universidad de Caldas estoy en mi noveno semestre. También de forma independiente soy tutor de las areas de matematicas y fisica. Espero llevar mi carrera y conocimientos de cursos en programación a otro nivel</p>
+                                <p class="card-text"></p>Hola soy Mauricio Arango, soy de un pequeño y hermoso pueblo
+                                del norte del Valle del Cauca, tengo 20 años, estudiante de Ing.Mecatronica en la
+                                Universidad de Caldas estoy en mi noveno semestre. También de forma independiente soy
+                                tutor de las areas de matematicas y fisica. Espero llevar mi carrera y conocimientos de
+                                cursos en programación a otro nivel</p>
                                 <p class="card-text"><small class="text-muted">github.com/mauro1777</small></p>
                             </div>
                         </div>
@@ -374,7 +391,8 @@
                         <div class="col-md-8 ">
                             <div class="card-body ">
                                 <h5 class="card-title" class="team-info_title">Vanessa</h5>
-                                <p class="card-text"> Mi nombre es Lexly Vanessa Sosa, soy de la ciudad de Bogotá, tengo 23 años y soy estudiante de
+                                <p class="card-text"> Mi nombre es Lexly Vanessa Sosa, soy de la ciudad de Bogotá, tengo
+                                    23 años y soy estudiante de
                                     Matemáticas en la universidad Distrital, me encuentro en mis dos últimos semestres
                                     del pregrado, trabajo de forma independiente como profesora particular de
                                     matemáticas.</p>
@@ -393,7 +411,13 @@
                         <div class="col-md-8 ">
                             <div class="card-body ">
                                 <h5 class="card-title" class="team-info_title">Ruben</h5>
-                                <p class="card-text"> Hola mi nombre es RUBEN DARIO CONDE CARVAJAL  soy de la ciudad de Ibagué, actualmente vivo aquí en Ibagué tengo estudios de ingeniería agroindustrial (no culminados noveno semestre), de cursos adicionales certificados no tengo ninguno ya que soy un poco mas de ser autodidacta, actualmente tengo una empresa la cual se dedica al suministro y fabricación de carpintería en madera casi todo lo relacionado con la madera (excepto muebles como camas, salas o comedores) los cuales se les suministra a urbanizadoras y pues publico en general.</p>
+                                <p class="card-text"> Hola mi nombre es RUBEN DARIO CONDE CARVAJAL soy de la ciudad de
+                                    Ibagué, actualmente vivo aquí en Ibagué tengo estudios de ingeniería agroindustrial
+                                    (no culminados noveno semestre), de cursos adicionales certificados no tengo ninguno
+                                    ya que soy un poco mas de ser autodidacta, actualmente tengo una empresa la cual se
+                                    dedica al suministro y fabricación de carpintería en madera casi todo lo relacionado
+                                    con la madera (excepto muebles como camas, salas o comedores) los cuales se les
+                                    suministra a urbanizadoras y pues publico en general.</p>
                                 <p class="card-text"><small class="text-muted">github.com/Raizend</small></p>
                             </div>
                         </div>
@@ -408,92 +432,247 @@
     </main>
     <!-- Inicio pie del sitio -->
     <footer id="colophon" class="site-footer" role="contentinfo">
-    
-        <div class="wrapper"><p class="center">
-            <a id="toplink" class="go-top" href="#top" title="Volver arriba">&uarr;</a>
-                <nav id="social" class="widget">
-                </nav>
-    
+
+        <div class="wrapper">
+            <p class="center">
+                <a id="toplink" class="go-top" href="#top" title="Volver arriba">&uarr;</a>
+            <nav id="social" class="widget">
+            </nav>
+
         </div>
     </footer>
     <footer class="footer-section">
         <div class="seccion-pie">
             <article>
-                <h4>Contáctanos</h4>
-                    <ul id="social-sidebar" class="menu">
-                          
-                            <li id="menu-item-14826" class="fa fa-github menu-item menu-item-type-custom menu-item-object-custom menu-item-14826">
-                                <a title="Github personal" rel="nofollow" href="https://github.com/Nelheca">Github Nelson</a>
-                            </li>
-                            <li id="menu-item-14826" class="fa fa-github menu-item menu-item-type-custom menu-item-object-custom menu-item-14826">
-                                <a title="Github personal" rel="nofollow" href="https://github.com/Raizend">Github Ruben</a>
-                            </li>
-                            <li id="menu-item-14826" class="fa fa-github menu-item menu-item-type-custom menu-item-object-custom menu-item-14826">
-                                <a title="Github personal" rel="nofollow" href="https://github.com/VanessaSosa">Github Vannesa</a>
-                            </li>
-                            <li id="menu-item-14826" class="fa fa-github menu-item menu-item-type-custom menu-item-object-custom menu-item-14826">
-                                <a title="Github personal" rel="nofollow" href="https://github.com/mauro1777">Github Mauricio</a>
-                            </li>
-                            <li id="menu-item-14826" class="fa fa-github menu-item menu-item-type-custom menu-item-object-custom menu-item-14826">
-                                <a title="Github personal" rel="nofollow" href="https://github.com/JulianPinzonP">Github Julián</a>
-                            </li>
-                            <li id="menu-item-14826" class="fa fa-github menu-item menu-item-type-custom menu-item-object-custom menu-item-14826">
-                                <a title="Devops repositorio" rel="nofollow" href="https://dev.azure.com/mauro12arango/UTP-Grupo76-Equipo3">Azure Devops</a>
-                            </li>
-                            <li id="menu-item-14827" class="fa fa-envelope menu-item menu-item-type-custom menu-item-object-custom menu-item-14827">
-                                <a title="Recibe notificaciones en tu email" rel="nofollow" href="https://mail.google.com/mail/u/0/#inbox?compose=new">Notificacion Email</a>
-                            </li>
-                        </p>
-                    </ul>
+                <h4 class="title_class">Contáctanos</h4>
+                <ul id="social-sidebar" class="menu">
+
+                    <li id="menu-item-14826"
+                        class="fa fa-github menu-item menu-item-type-custom menu-item-object-custom menu-item-14826">
+                        <a title="Autor cooperador" rel="nofollow" href="https://nelsonehc@gmail.com"><h5>Nelson Enrique 
+                            Herrera</h5</a>
+                        <br><a> nelsonehc@gmail.com</a></br>
+                    </li>
+                    <li id="menu-item-14826"
+                        class="fa fa-github menu-item menu-item-type-custom menu-item-object-custom menu-item-14826">
+                        <a title="Autor cooperador" rel="nofollow" href="https://condehalo117@hotmail.com"><h5>Ruben Dario
+                            Conde</h5></a>
+                        <a>condehalo117@hotmail.com</a>
+                    </li>
+                    <li id="menu-item-14826"
+                        class="fa fa-github menu-item menu-item-type-custom menu-item-object-custom menu-item-14826">
+                        <a title="Autor cooperador" rel="nofollow" href="https://lex.sjerez@outlook.es"><h5>Lexly Vanessa
+                            Sosa</h5> </a>
+                        <a> lex.sjerez@outlook.es</a>
+                    </li>
+                    <li id="menu-item-14826"
+                        class="fa fa-github menu-item menu-item-type-custom menu-item-object-custom menu-item-14826">
+                        <a title="Autor cooperador" rel="nofollow" href="https://mauro.12arango@hotmail.com"><h5>Mauricio
+                            Arango Barbosa</h5></a>
+                        <a>mauro.12arango@hotmail.com</a>
+                    </li>
+                    <li id="menu-item-14826"
+                        class="fa fa-github menu-item menu-item-type-custom menu-item-object-custom menu-item-14826">
+                        <a title="Autor cooperador" rel="nofollow" href="https://pinzonjulian12@gmail.com"><h5>Pedro Julian 
+                            Pinzón</h5></a>
+                        <a>pinzonjulian12@gmail.com</a>
+                    </li>
+                    <li id="menu-item-14826"
+                        class="fa fa-github menu-item menu-item-type-custom menu-item-object-custom menu-item-14826">
+                        <a title="Devops repositorio" rel="nofollow"
+                            href="https://dev.azure.com/mauro12arango/UTP-Grupo76-Equipo3">Azure Devops</a>
+                    </li>
+                    <li id="menu-item-14827"
+                        class="fa fa-envelope menu-item menu-item-type-custom menu-item-object-custom menu-item-14827">
+                        <a title="Recibe notificaciones en tu email" rel="nofollow"
+                            href="https://mail.google.com/mail/u/0/#inbox?compose=new">Notificacion Email</a>
+                    </li>
+                    </p>
+                </ul>
                 </nav>
             </article>
+            <style>
+                .seccion_title{
+                    font-family: 'Times New Roman', Times, serif;
+                }
+            </style>
+
+
             <article>
                 <div class="footer-column-full">
                     <aside id="gtranslate-2" class="widget_gtranslate">
-                            <style>
-                                .switcher {font-family:Arial;font-size:12pt;text-align:left;cursor:pointer;overflow:hidden;width:173px;line-height:17px;}
-                                .switcher a {text-decoration:none;display:block;font-size:12pt;-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box;}
-                                .switcher a img {vertical-align:middle;display:inline;border:0;padding:0;margin:0;opacity:0.8;}
-                                .switcher a:hover img {opacity:1;}
-                                .switcher .selected {background:#fff linear-gradient(180deg, #efefef 0%, #fff 70%);position:relative;z-index:9999;}
-                                .switcher .selected a {border:1px solid #ccc;color:#666;padding:3px 5px;width:161px;}
-                                .switcher .selected a:after {height:24px;display:inline-block;position:absolute;right:10px;width:15px;background-position:50%;background-size:11px;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 285 285'><path d='M282 76.5l-14.2-14.3a9 9 0 0 0-13.1 0L142.5 174.4 30.3 62.2a9 9 0 0 0-13.2 0L3 76.5a9 9 0 0 0 0 13.1l133 133a9 9 0 0 0 13.1 0l133-133a9 9 0 0 0 0-13z' style='fill:%23666'/></svg>");background-repeat:no-repeat;content:""!important;transition:all .2s;}
-                                .switcher .selected a.open:after {-webkit-transform: rotate(-180deg);transform:rotate(-180deg);}
-                                .switcher .selected a:hover {background:#fff}
-                                .switcher .option {position:relative;z-index:9998;border-left:1px solid #ccc;border-right:1px solid #ccc;border-bottom:1px solid #ccc;background-color:#eee;display:none;width:171px;max-height:198px;-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box;overflow-y:auto;overflow-x:hidden;}
-                                .switcher .option a {color:#000;padding:3px 5px;}
-                                .switcher .option a:hover {background:#fff;}
-                                .switcher .option a.selected {background:#fff;}
-                                #selected_lang_name {float: none;}
-                                .l_name {float: none !important;margin: 0;}
-                                .switcher .option::-webkit-scrollbar-track{-webkit-box-shadow:inset 0 0 3px rgba(0,0,0,0.3);border-radius:5px;background-color:#f5f5f5;}
-                                .switcher .option::-webkit-scrollbar {width:5px;}
-                                .switcher .option::-webkit-scrollbar-thumb {border-radius:5px;-webkit-box-shadow: inset 0 0 3px rgba(0,0,0,.3);background-color:#888;}
-                            </style>
-    <div class="switcher notranslate">
-    <div class="selected">
-    <a href="#" onclick="return false;"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAACFCAMAAAApQEceAAAACVBMVEXGCx7/xADymgd57t2dAAAAdUlEQVR4nO3bAQ0AIAzAsIN/0dgYT+tgAjYDAAAAAADAn+4Sc5YQUiOkRkiNkBohNUJqhNQIqRFSI6RGSI2QGiE1QmqE1AipEVIjpEZIjZAaITVCaoTUCKkRUiOkRkiNkBohNUJqhNQIqdlz9AAAAAAAAPCnB6dCNel8zcmSAAAAAElFTkSuQmCC" height="24" width="24" alt="es" data-lazy-src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAACFCAMAAAApQEceAAAACVBMVEXGCx7/xADymgd57t2dAAAAdUlEQVR4nO3bAQ0AIAzAsIN/0dgYT+tgAjYDAAAAAADAn+4Sc5YQUiOkRkiNkBohNUJqhNQIqRFSI6RGSI2QGiE1QmqE1AipEVIjpEZIjZAaITVCaoTUCKkRUiOkRkiNkBohNUJqhNQIqdlz9AAAAAAAAPCnB6dCNel8zcmSAAAAAElFTkSuQmCC" /><noscript><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAACFCAMAAAApQEceAAAACVBMVEXGCx7/xADymgd57t2dAAAAdUlEQVR4nO3bAQ0AIAzAsIN/0dgYT+tgAjYDAAAAAADAn+4Sc5YQUiOkRkiNkBohNUJqhNQIqRFSI6RGSI2QGiE1QmqE1AipEVIjpEZIjZAaITVCaoTUCKkRUiOkRkiNkBohNUJqhNQIqdlz9AAAAAAAAPCnB6dCNel8zcmSAAAAAElFTkSuQmCC" height="24" width="24" alt="es" /></noscript> Español</a>
-    </div>
-                
-    <div id="foot-menu">
-            <ul id="navigation-foot" class="menu">
-    
-                <li id="menu-item-16234" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-16234"><a rel="nofollow" href="">Aviso legal</a></li>
-                <li id="menu-item-14835" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14835"><a title="Licencia" rel="nofollow" href="">Licencia</a></li>
-                <li id="menu-item-16235" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16235"><a rel="nofollow" href="">Contacto</a></li>
-                <li id="menu-item-16235" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16235"><a rel="nofollow" href="https://www.utp.edu.co/">Sitio UTP</a></li>
-                <style>
-                    .center {text-align: center}
-                    .menu {
-                        color: #e90d0d;
-                    }
-                    
-                </style>
-            </ul>		
-    </div>
+                        <style>
+                            .switcher {
+                                font-family: Arial;
+                                font-size: 12pt;
+                                text-align: left;
+                                cursor: pointer;
+                                overflow: hidden;
+                                width: 173px;
+                                line-height: 17px;
+                            }
+
+                            .switcher a {
+                                text-decoration: none;
+                                display: block;
+                                font-size: 12pt;
+                                -webkit-box-sizing: content-box;
+                                -moz-box-sizing: content-box;
+                                box-sizing: content-box;
+                            }
+                               
+                            .switcher a img {
+                                vertical-align: middle;
+                                display: inline;
+                                border: 0;
+                                padding: 0;
+                                margin: 0;
+                                opacity: 0.8;
+                            }
+
+                            .switcher a:hover img {
+                                opacity: 1;
+                            }
+
+                            .switcher .selected {
+                                background: #fff linear-gradient(180deg, #efefef 0%, #fff 70%);
+                                position: relative;
+                                z-index: 9999;
+                            }
+
+                            .switcher .selected a {
+                                border: 1px solid #ccc;
+                                color: #666;
+                                padding: 3px 5px;
+                                width: 161px;
+                            }
+
+                            .switcher .selected a:after {
+                                height: 24px;
+                                display: inline-block;
+                                position: absolute;
+                                right: 10px;
+                                width: 15px;
+                                background-position: 50%;
+                                background-size: 11px;
+                                background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 285 285'><path d='M282 76.5l-14.2-14.3a9 9 0 0 0-13.1 0L142.5 174.4 30.3 62.2a9 9 0 0 0-13.2 0L3 76.5a9 9 0 0 0 0 13.1l133 133a9 9 0 0 0 13.1 0l133-133a9 9 0 0 0 0-13z' style='fill:%23666'/></svg>");
+                                background-repeat: no-repeat;
+                                content: "" !important;
+                                transition: all .2s;
+                            }
+
+                            .switcher .selected a.open:after {
+                                -webkit-transform: rotate(-180deg);
+                                transform: rotate(-180deg);
+                            }
+
+                            .switcher .selected a:hover {
+                                background: #fff
+                            }
+
+                            .switcher .option {
+                                position: relative;
+                                z-index: 9998;
+                                border-left: 1px solid #ccc;
+                                border-right: 1px solid #ccc;
+                                border-bottom: 1px solid #ccc;
+                                background-color: #eee;
+                                display: none;
+                                width: 171px;
+                                max-height: 198px;
+                                -webkit-box-sizing: content-box;
+                                -moz-box-sizing: content-box;
+                                box-sizing: content-box;
+                                overflow-y: auto;
+                                overflow-x: hidden;
+                            }
+
+                            .switcher .option a {
+                                color: #000;
+                                padding: 3px 5px;
+                            }
+
+                            .switcher .option a:hover {
+                                background: #fff;
+                            }
+
+                            .switcher .option a.selected {
+                                background: #fff;
+                            }
+
+                            #selected_lang_name {
+                                float: none;
+                            }
+
+                            .l_name {
+                                float: none !important;
+                                margin: 0;
+                            }
+
+                            .switcher .option::-webkit-scrollbar-track {
+                                -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+                                border-radius: 5px;
+                                background-color: #f5f5f5;
+                            }
+
+                            .switcher .option::-webkit-scrollbar {
+                                width: 5px;
+                            }
+
+                            .switcher .option::-webkit-scrollbar-thumb {
+                                border-radius: 5px;
+                                -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, .3);
+                                background-color: #888;
+                            }
+                        </style>
+                        <div class="switcher notranslate">
+                            <div class="selected">
+                                <a href="#" onclick="return false;"><img
+                                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAACFCAMAAAApQEceAAAACVBMVEXGCx7/xADymgd57t2dAAAAdUlEQVR4nO3bAQ0AIAzAsIN/0dgYT+tgAjYDAAAAAADAn+4Sc5YQUiOkRkiNkBohNUJqhNQIqRFSI6RGSI2QGiE1QmqE1AipEVIjpEZIjZAaITVCaoTUCKkRUiOkRkiNkBohNUJqhNQIqdlz9AAAAAAAAPCnB6dCNel8zcmSAAAAAElFTkSuQmCC"
+                                        height="24" width="24" alt="es"
+                                        data-lazy-src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAACFCAMAAAApQEceAAAACVBMVEXGCx7/xADymgd57t2dAAAAdUlEQVR4nO3bAQ0AIAzAsIN/0dgYT+tgAjYDAAAAAADAn+4Sc5YQUiOkRkiNkBohNUJqhNQIqRFSI6RGSI2QGiE1QmqE1AipEVIjpEZIjZAaITVCaoTUCKkRUiOkRkiNkBohNUJqhNQIqdlz9AAAAAAAAPCnB6dCNel8zcmSAAAAAElFTkSuQmCC" /><noscript><img
+                                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAACFCAMAAAApQEceAAAACVBMVEXGCx7/xADymgd57t2dAAAAdUlEQVR4nO3bAQ0AIAzAsIN/0dgYT+tgAjYDAAAAAADAn+4Sc5YQUiOkRkiNkBohNUJqhNQIqRFSI6RGSI2QGiE1QmqE1AipEVIjpEZIjZAaITVCaoTUCKkRUiOkRkiNkBohNUJqhNQIqdlz9AAAAAAAAPCnB6dCNel8zcmSAAAAAElFTkSuQmCC"
+                                            height="24" width="24" alt="es" /></noscript>Español</a>
+                            </div>
+
+                            <div id="foot-menu">
+                                <ul id="navigation-foot" class="menu">
+
+                                    <li id="menu-item-16234"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-16234">
+
+                                        <a rel="nofollow" href=""><h6>Contacto tel:
+                                            3167096803
+                                           
+                                        </h6></a></li>
+                                    <li id="menu-item-14835"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14835">
+                                        <a title="Direccion" rel="nofollow" href=""><h6>Direccion Cr 4 #34-43 
+                                            Charala,Santander 
+                                        </h6></a></li>
+                                    
+                                    <li id="menu-item-16235"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16235">
+                                        <a rel="nofollow" href="https://www.utp.edu.co/"><h6>Sitio UTP</h6></a></li>
+
+                                        
+                                    </li>
+
+                                    <style>
+                                        .center {
+                                            text-align: center
+                                        }
+
+                                        .menu {
+                                            color: #e60c0c;
+                                            font-style: oblique
+                                        }
+                                    </style>
+                                </ul>
+                            </div>
             </article>
         </div>
-        </footer>
-    </body>
-    
-    </html>
+    </footer>
+</body>
+
+</html>
