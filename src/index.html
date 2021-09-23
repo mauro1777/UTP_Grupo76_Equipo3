@@ -95,11 +95,15 @@
             object-fit: cover;
         }
 
-        .services-section,
-        .seccion-noticias,
-        .seccion-equipo {
+        .services-section {
+            width: 100%;
+            margin: auto;
+        }
+
+        .services-sectionConter{
             display: flex;
             margin-bottom: 100px;
+            padding-top: 10px;
         }
 
         .services-info {
@@ -130,9 +134,13 @@
 
         .news-section {
             width: 90%;
-            padding: 10px;
-            margin: 50px auto;
+            margin: 0;
             box-shadow: 10px 5px 5px #d7d4d4;
+            
+        }
+
+        .newsConter{
+            padding-top: 20px;
         }
 
         .seccion-pie {
@@ -149,12 +157,6 @@
             
         }
 
-        .services-section{
-            width: 100%;
-            margin: auto;
-
-        }
-
         .services-info__imagen {
             border-radius: 15%;
             margin-right: auto;
@@ -166,12 +168,15 @@
 
         .team-section{
             width: 100%;
-            margin: auto;
+            margin: 0;
+            padding-top: 60px;
+            
         }
 
         .teamConter{
             display: grid;
             grid-template-columns: repeat(3, 1fr);
+            padding-top: 20px;
         }
 
         .team-info {
@@ -190,6 +195,10 @@
             margin-right: auto;
             margin-left: auto;
             object-fit: contain;
+        }
+
+        .mainConter{
+            padding: 10px;
         }
 
     </style>
@@ -231,11 +240,11 @@
 
     <!-- inicio contenido principal -->
     <main>
-        <div>
+        <div class="mainConter">
             <!-- inicio sección de servicios -->
             <section id="services" class="services-section">
                 <h2 class="negrilla-title"><u>Servicios</u></h2>
-                <div id="servicios" class="services-section">
+                <div id="servicios" class="services-sectionConter">
                     <article class="services-info">
                         <img class="services-info__imagen"
                             src="https://cdn.pixabay.com/photo/2021/01/10/07/41/syringe-5904302__340.jpg" alt="">
@@ -273,7 +282,7 @@
             <!-- inicio sección de noticias -->
             <section id="news" class="news-section">
                 <h2 class="negrilla-title"><u>Noticias</u></h2>
-
+                <div class="newsConter">
                 <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
@@ -322,6 +331,7 @@
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                     </button>
+                </div>
                 </div>
             </section>
             <!-- fin sección de noticias -->
@@ -433,8 +443,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>    
+                    </div>    
             </section>
             <!-- fin sección de equipo -->
 
